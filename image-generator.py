@@ -5,7 +5,7 @@ import time
 
 size = 1024 * 25
 
-RAM = ((size**2) * 48) / 8388608
+RAM = ((size**2) * 48) / 2796203
 MSG = f'Picture size: {size}x{size}\n{RAM}MB + ≈500MB of RAM will be used. \nPress Y to continue: '
 while input(MSG) not in ('y', 'Y'): pass
 
