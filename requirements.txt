@@ -1,0 +1,16 @@
+#It's better to create a venv. Use this command
+#python -m venv .env
+
+#To install the required packages use this command:
+#pip install -r requirements.txt
+
+#Requirements for image-generator 
+numpy
+numba
+Pillow
+
+#Requirements for realtime-viev
+pygame
+#and again:
+#numpy
+#numba
